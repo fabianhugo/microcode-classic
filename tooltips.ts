@@ -5,7 +5,7 @@ namespace microcode {
     export function resolveTooltip(id: string) {
         let res: string = ""
         if (!id) return id
-        else if (id === "tagline") res = "for micro:bit V2";
+        else if (id === "tagline") res = "for Calliope mini V3";
         else if (id === "sensors") res = "when...";
         else if (id === "actuators") res = "do...";
         else if (id === "when") res = "when";
